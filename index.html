@@ -1,244 +1,309 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>59 Shop - Dịch Vụ Tài Chính</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dịch vụ cà thẻ 59 - Đáo hạn thẻ tín dụng, rút tiền mặt nhanh chóng, an toàn, bảo mật tại TP.HCM. Lãi suất cạnh tranh, dịch vụ chuyên nghiệp.">
+    <meta name="keywords" content="dịch vụ cà thẻ, đáo hạn thẻ tín dụng, rút tiền mặt, tài chính cá nhân, cà thẻ tín dụng TP.HCM">
+    <meta name="author" content="Dịch vụ cà thẻ 59">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph for Facebook & LinkedIn -->
+    <meta property="og:title" content="Dịch Vụ Cà Thẻ 59 - Đáo Hạn, Rút Tiền Mặt, Tư Vấn Tài Chính">
+    <meta property="og:description" content="Dịch vụ cà thẻ 59 - Hỗ trợ tài chính chuyên nghiệp, rút tiền mặt nhanh chóng, đáo hạn thẻ tín dụng an toàn, bảo mật tại TP.HCM.">
+    <meta property="og:image" content="https://yourwebsite.com/logo.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+  
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dịch Vụ Cà Thẻ 59 - Đáo Hạn, Rút Tiền Mặt, Tư Vấn Tài Chính">
+    <meta name="twitter:description" content="Dịch vụ cà thẻ 59 - Hỗ trợ tài chính chuyên nghiệp, rút tiền mặt nhanh chóng, đáo hạn thẻ tín dụng an toàn, bảo mật tại TP.HCM.">
+    <meta name="twitter:image" content="https://yourwebsite.com/logo.jpg">
+  
+    <title>Dịch Vụ Cà Thẻ 59 - Đáo Hạn, Rút Tiền Mặt, Tư Vấn Tài Chính</title>
+  
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  
+    <!-- Styles & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  
+    <!-- Preload Important Resources -->
+    <link rel="preload" as="image" href="logo.jpg">
+    <link rel="preload" as="image" href="zalo.png">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  </head>  
+  
 <body>
 
-<header class="sticky-top bg-dark">
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <header class="sticky-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="logo.jpg" alt="59 Shop Logo" height="40">
+        </a>
+  
+        <!-- Nút gọi và Toggle Menu trên mobile -->
+        <div class="d-flex align-items-center d-lg-none">
+          <a href="tel:0932272345" class="btn btn-warning text-dark fw-bold me-2">
+            <i class="bi bi-telephone-fill"></i> 0932.27.2345
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+  
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Trang Chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Dịch Vụ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Bảng Giá</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Tin Tức</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Liên Hệ</a></li>
+          </ul>
+          <!-- Nút gọi trên màn hình lớn -->
+          <a href="tel:0932272345" class="btn btn-warning text-dark fw-bold d-none d-lg-block ms-3">
+            <i class="bi bi-telephone-fill"></i> 0932.27.2345
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero position-relative">
+    <!-- Ảnh nền có alt -->
+    <div class="hero-img position-absolute w-100 h-100" style="background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85') center/cover" aria-label="Dịch vụ cà thẻ, đáo hạn thẻ tín dụng nhanh chóng"></div>
+  
+    <div class="container position-relative py-5">
+      <div class="row min-vh-75 align-items-center">
+        <div class="col-lg-6">
+          <!-- Tối ưu tiêu đề h1 -->
+          <h1 class="display-4 fw-bold text-gold">Dịch Vụ Cà Thẻ - Đáo Hạn Thẻ Tín Dụng Uy Tín tại TP.HCM</h1>
+  
+          <!-- Thay p thành h2 -->
+          <h2 class="h5 text-white">Dịch vụ nhanh chóng - An toàn - Bảo mật tuyệt đối</h2>
+  
+          <div class="d-flex gap-3">
+            <a href="#services" class="btn btn-gold btn-lg" aria-label="Xem dịch vụ đáo hạn và rút tiền mặt">Dịch Vụ</a>
+            <a href="#contact" class="btn btn-gold btn-lg" aria-label="Liên hệ tư vấn dịch vụ cà thẻ">Liên Hệ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="services" class="py-5">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://images.unsplash.com/photo-1633409361618-c73427e4e206" alt="59 Shop Logo" height="40">
-      </a>
-      <div class="d-flex align-items-center d-lg-none">
-        <a href="tel:1800-59-SHOP" class="btn btn-gold me-2"><i class="bi bi-telephone-fill"></i> 1800-59-SHOP</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Trang Chủ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Dịch Vụ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pricing">Bảng Giá</a></li>
-          <li class="nav-item"><a class="nav-link" href="#blog">Tin Tức</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Liên Hệ</a></li>
-        </ul>
-        <a href="tel:1800-59-SHOP" class="btn btn-gold d-none d-lg-block ms-3"><i class="bi bi-telephone-fill"></i> 1800-59-SHOP</a>
+      <!-- Tối ưu tiêu đề -->
+      <h2 class="text-center mb-3">Dịch Vụ Cà Thẻ & Đáo Hạn Thẻ Tín Dụng</h2>
+      <p class="text-center text-muted mb-5">
+        Chúng tôi cung cấp các dịch vụ tài chính uy tín, nhanh chóng và bảo mật, giúp bạn tối ưu dòng tiền dễ dàng.
+      </p>
+  
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <i class="bi bi-clock-history display-4 text-primary mb-3" aria-label="Dịch vụ đáo hạn thẻ tín dụng"></i>
+              <h3 class="h4">Đáo Hạn Thẻ Tín Dụng</h3>
+              <p>Dịch vụ đáo hạn thẻ tín dụng nhanh chóng, an toàn, lãi suất thấp. <strong>Liên hệ ngay</strong> để được hỗ trợ!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <i class="bi bi-cash-stack display-4 text-primary mb-3" aria-label="Dịch vụ rút tiền mặt"></i>
+              <h3 class="h4">Rút Tiền Mặt từ Thẻ Tín Dụng</h3>
+              <p>Hỗ trợ rút tiền mặt từ thẻ tín dụng với phí thấp, thủ tục đơn giản. <strong>Giải ngân chỉ trong 5 phút!</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center">
+              <i class="bi bi-people-fill display-4 text-primary mb-3" aria-label="Hỗ trợ tư vấn tài chính"></i>
+              <h3 class="h4">Tư Vấn Giải Pháp Tài Chính</h3>
+              <p>Đội ngũ chuyên gia sẵn sàng hỗ trợ bạn với các giải pháp tài chính cá nhân tối ưu.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-</header>
+  </section>
 
-<section class="hero position-relative">
-  <div class="hero-img position-absolute w-100 h-100" style="background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85') center/cover"></div>
-  <div class="container position-relative py-5">
-    <div class="row min-vh-75 align-items-center">
-      <div class="col-lg-6">
-        <h1 class="display-4 fw-bold text-gold">Đối Tác Tài Chính Tin Cậy</h1>
-        <p class="lead text-white mb-4">Nhanh gọn - Uy tín - Bảo mật</p>
-        <div class="d-flex gap-3">
-          <a href="#services" class="btn btn-gold btn-lg">Dịch Vụ</a>
-          <a href="#contact" class="btn btn-outline-gold btn-lg">Liên Hệ</a>
+  <section id="pricing" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-3">Bảng Giá Đáo Hạn & Rút Tiền Mặt</h2>
+      <p class="text-center text-muted mb-5">
+        Lãi suất hấp dẫn, dịch vụ nhanh chóng, bảo mật tuyệt đối. Liên hệ ngay để được hỗ trợ tốt nhất!
+      </p>
+  
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h3 class="text-center mb-3">Lãi Suất Chỉ Từ</h3>
+              <div class="text-center mb-4">
+                <span class="display-4">1.5%</span>
+                <span class="text-muted">/ giao dịch</span>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Nhắc nhở lịch đáo hạn miễn phí</li>
+                <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Hỗ trợ tận tâm 24/7</li>
+                <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Giải ngân nhanh chỉ trong 5 phút</li>
+              </ul>
+              <div class="text-center mt-4">
+                <a href="#contact" class="btn btn-primary">Liên Hệ Ngay</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="services" class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-5">Dịch Vụ Của Chúng Tôi</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <i class="bi bi-clock-history display-4 text-primary mb-3"></i>
-            <h3 class="h4">Đáo Hạn</h3>
-            <p>Giải pháp đáo hạn chuyên nghiệp, nhanh chóng và bảo mật</p>
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-3">Địa Chỉ Văn Phòng 59 Shop - Tân Bình, TP.HCM</h2>
+      <p class="text-center text-muted mb-5">
+        Đến ngay văn phòng 59 Shop để được tư vấn trực tiếp về dịch vụ đáo hạn, rút tiền mặt nhanh chóng!
+      </p>
+  
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="contact-info">
+            <div class="d-flex mb-4">
+              <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+              <div>
+                <h5>Địa Chỉ</h5>
+                <p class="mb-0">93 Ngô Thị Thu Minh, Phường 2, Quận Tân Bình, TP.HCM</p>
+                <a href="https://www.google.com/maps?q=93+Ngô+Thị+Thu+Minh,+Phường+2,+Quận+Tân+Bình,+TP.HCM" 
+                   target="_blank" class="btn btn-outline-gold btn-sm mt-2">Chỉ Đường</a>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <i class="bi bi-telephone-fill text-primary fs-4 me-3"></i>
+              <div>
+                <h5>Số Điện Thoại</h5>
+                <p class="mb-0">
+                  <a href="tel:0932272345" class="text-dark fw-bold">0932.27.2345</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <i class="bi bi-cash-stack display-4 text-primary mb-3"></i>
-            <h3 class="h4">Rút Tiền Mặt</h3>
-            <p>Dịch vụ rút tiền mặt an toàn với thủ tục đơn giản</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <i class="bi bi-people-fill display-4 text-primary mb-3"></i>
-            <h3 class="h4">Hỗ Trợ Tư Vấn</h3>
-            <p>Đội ngũ chuyên gia tư vấn giải pháp tài chính tối ưu</p>
+  
+        <div class="col-lg-8">
+          <div class="map-container mb-4" style="height: 300px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1742812817997!2d106.65219731533417!3d10.797346361705166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752936e8b50d59%3A0x8b7bb8e8489d1947!2s93%20Ng%C3%B4%20Th%E1%BB%8B%20Thu%20Minh%2C%20Ph%C6%B0%E1%BB%9Dng%202%2C%20T%C3%A2n%20B%C3%ACnh%2C%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh!5e0!3m2!1svi!2s!4v1645429762854!5m2!1svi!2s" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="pricing" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-5">Bảng Giá Đơn Giản</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h3 class="text-center mb-4">Bình Thường</h3>
-            <div class="text-center mb-4">
-              <span class="display-4">2%</span>
-              <span class="text-muted">/giao dịch</span>
-            </div>
-            <ul class="list-unstyled">
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Thẻ cào thông thường</li>
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Chăm sóc khách hàng</li>
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Thời gian xử lý thông thường</li>
-            </ul>
-            <div class="text-center mt-4">
-              <a href="#contact" class="btn btn-outline-primary">Get Started</a>
-            </div>
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row g-4">
+        
+        <!-- Cột 1: Giới thiệu -->
+        <div class="col-lg-4">
+          <h5>Về Dịch Vụ Cà Thẻ 59 Shop - Đối Tác Tài Chính Uy Tín</h5>
+          <p>Chuyên cung cấp dịch vụ đáo hạn, rút tiền mặt và hỗ trợ tài chính nhanh chóng, an toàn từ năm 2018.</p>
+        </div>
+  
+        <!-- Cột 2: Liên Kết Nhanh -->
+        <div class="col-lg-4">
+          <h5>Liên Kết Nhanh</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white-50">Về Chúng Tôi</a></li>
+            <li><a href="#services" class="text-white-50">Dịch Vụ</a></li>
+            <li><a href="#pricing" class="text-white-50">Bảng Giá</a></li>
+            <li><a href="#contact" class="text-white-50">Liên Hệ</a></li>
+          </ul>
+        </div>
+  
+        <!-- Cột 3: Thông tin liên hệ -->
+        <div class="col-lg-4">
+          <h5>Liên Hệ Với Chúng Tôi</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-geo-alt-fill text-primary me-2"></i> 93 Ngô Thị Thu Minh, Tân Bình, TP.HCM</li>
+            <li><i class="bi bi-telephone-fill text-primary me-2"></i> <a href="tel:0932272345" class="text-white">0932.27.2345</a></li>
+            <li><i class="bi bi-envelope-fill text-primary me-2"></i> <a href="mailto:contact@59shop.com" class="text-white">contact@59shop.com</a></li>
+          </ul>
+          <div class="d-flex gap-3 mt-2">
+            <a href="#" class="text-white" target="_blank" data-bs-toggle="tooltip" title="Facebook"><i class="bi bi-facebook fs-4"></i></a>
+            <a href="#" class="text-white" target="_blank" data-bs-toggle="tooltip" title="Twitter"><i class="bi bi-twitter fs-4"></i></a>
+            <a href="#" class="text-white" target="_blank" data-bs-toggle="tooltip" title="LinkedIn"><i class="bi bi-linkedin fs-4"></i></a>
+            <a href="#" class="text-white" target="_blank" data-bs-toggle="tooltip" title="Instagram"><i class="bi bi-instagram fs-4"></i></a>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h3 class="text-center mb-4">Tiêu Chuẩn</h3>
-            <div class="text-center mb-4">
-              <span class="display-4">1.5%</span>
-              <span class="text-muted">/giao dịch</span>
-            </div>
-            <ul class="list-unstyled">
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Thẻ cào tiêu chuẩn</li>
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Chăm sóc khách hàng ưu tiên</li>
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Thời gian xử lý nhanh chóng</li>
-            </ul>
-            <div class="text-center mt-4">
-              <a href="#contact" class="btn btn-primary">Get Started</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <h3 class="text-center mb-4">Công Ty</h3>
-            <div class="text-center mb-4">
-              <span class="display-4">Tùy chỉnh</span>
-              <span class="text-muted">/hợp đồng</span>
-            </div>
-            <ul class="list-unstyled">
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Hợp đồng tùy chỉnh</li>
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Chăm sóc khách hàng 24/7</li>
-              <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i>Thời gian xử lý nhanh chóng</li>
-            </ul>
-            <div class="text-center mt-4">
-              <a href="#contact" class="btn btn-outline-primary">Contact Sales</a>
-            </div>
-          </div>
-        </div>
+  
+      <!-- Dòng phân cách -->
+      <hr class="my-4">
+  
+      <!-- Bản quyền -->
+      <div class="text-center text-white-50">
+        <small>&copy; 2025 Dịch vụ cà thẻ 59 Shop. All rights reserved.</small>
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section id="contact" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-5">Vị Trí Văn Phòng</h2>
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="contact-info">
-          <div class="d-flex mb-4">
-            <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
-            <div>
-              <h5>Địa Chỉ</h5>
-              <p class="mb-0">123 Đường Tài Chính, Thành Phố, 12345</p>
-            </div>
-          </div>
-          <div class="d-flex mb-4">
-            <i class="bi bi-telephone-fill text-primary fs-4 me-3"></i>
-            <div>
-              <h5>Số Điện Thoại</h5>
-              <p class="mb-0">1800-59-SHOP</p>
-            </div>
-          </div>
-          <div class="d-flex">
-            <i class="bi bi-envelope-fill text-primary fs-4 me-3"></i>
-            <div>
-              <h5>Email</h5>
-              <p class="mb-0">info@59shop.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-8">
-        <div class="map-container" style="height: 450px; width: 100%;">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6963467675175!2d105.84273731531904!3d21.007025286010126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac428c3336e5%3A0xe7e7c73d5e4e3de2!2zSG_DoG4gS2nhur9tLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1629789456238!5m2!1svi!2s" 
-            width="100%" 
-            height="100%" 
-            style="border:0; border-radius: var(--radius);" 
-            allowfullscreen="" 
-            loading="lazy">
-          </iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer class="bg-dark text-white py-4">
-  <div class="container">
-    <div class="row g-4">
-      <div class="col-lg-4">
-        <h5>Về 59 Shop</h5>
-        <p>Đối tác tài chính tin cậy của bạn, cung cấp giải pháp chuyên nghiệp từ 2010.</p>
-      </div>
-      <div class="col-lg-4">
-        <h5>Liên Kết Nhanh</h5>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-white-50">Về Chúng Tôi</a></li>
-          <li><a href="#services" class="text-white-50">Dịch Vụ</a></li>
-          <li><a href="#pricing" class="text-white-50">Bảng Giá</a></li>
-          <li><a href="#contact" class="text-white-50">Liên Hệ</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-4">
-        <h5>Liên Hệ Với Chúng Tôi</h5>
-        <div class="d-flex gap-3">
-          <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
-          <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-    <hr class="my-4">
-    <div class="text-center text-white-50">
-      <small>&copy; 2024 59 Shop. All rights reserved.</small>
-    </div>
-  </div>
-</footer>
-
-<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
-  <a href="https://wa.me/1800597467" class="btn btn-success rounded-circle shadow-sm mb-2" title="WhatsApp">
-    <i class="bi bi-whatsapp"></i>
+<div class="floating-icons">
+  <a href="tel:0932272345" class="floating-icon phone-icon">
+    <i class="bi bi-telephone-fill"></i>
   </a>
-  <br>
-  <a href="#" class="btn btn-primary rounded-circle shadow-sm" title="Zalo">
-    <i class="bi bi-chat-dots-fill"></i>
+  <a href="https://zalo.me/0932272345" class="floating-icon zalo-icon">
+    <img src="zalo.png" alt="Zalo icon" width="30" height="30">
   </a>
 </div>
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "59 Shop",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "93 Ngô Thị Thu Minh, Phường 2, Quận Tân Bình",
+      "addressLocality": "Hồ Chí Minh",
+      "addressCountry": "VN"
+    },
+    "telephone": "+84932272345",
+    "url": "https://yourwebsite.com",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 10.7973463,
+      "longitude": 106.6521973
+    }
+  }
+</script>
+
+<!-- Kích hoạt Tooltip Bootstrap -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
